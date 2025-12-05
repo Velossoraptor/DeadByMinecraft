@@ -1,4 +1,4 @@
 # Pinhead
-playsound minecraft:terror_radius.pinhead master @a[tag=!killer,distance=..10] ~ ~ ~ .4 1 0
-
-schedule function dbm:tr/music/pinhead 5980t
+playsound minecraft:entity.evoker.prepare_wololo master @a[tag=!killer,distance=..10] ~ ~ ~ 1 1.2 0
+playsound minecraft:entity.evoker.prepare_wololo master @a[tag=!killer,distance=11..25] ~ ~ ~ 2 .8 0
+playsound minecraft:entity.evoker.prepare_attack master @a[tag=!killer,distance=26..40] ~ ~ ~ 3 .4 0

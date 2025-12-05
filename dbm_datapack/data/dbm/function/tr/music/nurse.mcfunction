@@ -1,4 +1,4 @@
 # Nurse
-playsound minecraft:terror_radius.nurse master @a[tag=!killer,distance=..10] ~ ~ ~ .4 1 0
-
-schedule function dbm:tr/music/nurse 3500t
+playsound minecraft:entity.vex.charge master @a[tag=!killer,distance=..10] ~ ~ ~ 1 1.2 0
+playsound minecraft:entity.vex.charge master @a[tag=!killer,distance=11..25] ~ ~ ~ 2 .8 0
+playsound minecraft:entity.vex.ambient master @a[tag=!killer,distance=26..40] ~ ~ ~ 3 .4 0

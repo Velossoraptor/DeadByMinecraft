@@ -8,3 +8,5 @@ execute as @e[tag=killer] at @s if entity @s[tag=pinhead] run function dbm:tr/mu
 execute as @e[tag=killer] at @s if entity @s[tag=trapper] run function dbm:tr/music/trapper
 execute as @e[tag=killer] at @s if entity @s[tag=wraith] run function dbm:tr/music/wraith
 execute as @e[tag=killer] at @s if entity @s[tag=xeno] run function dbm:tr/music/xeno
+
+schedule function dbm:music 60t replace
