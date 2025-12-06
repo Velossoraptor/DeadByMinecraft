@@ -1,4 +1,5 @@
 #This function will run on world loading or data pack loading
+# Gen scores
 scoreboard objectives add gen-progress dummy "Generator Progress"
 scoreboard objectives add repair-active dummy "Repair Active"
 scoreboard objectives add num-active dummy "Number of Active Repair Points"
