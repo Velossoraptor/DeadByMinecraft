@@ -7,6 +7,13 @@ scoreboard objectives add random-delay dummy "Random Delay"
 scoreboard objectives add qte-countdown dummy "QTE Countdown"
 scoreboard objectives add qte-active dummy "QTE Active"
 
+# Killer Scores
+# 0 = Survivor
+# 1-10 = Killer (See ReadMe)
+scoreboard objectives add killer-id dummy "Killer Id"
+team add Killer "Killer"
+team add Survivor "Survivor"
+
 # Initialize all armor stands with the "gen-prog" tag to have 0 progress and 0 active repair points
 execute as @e[tag=gen-prog] run scoreboard players set @s gen-progress 0
 execute as @e[tag=gen-prog] run scoreboard players set @s num-active 0

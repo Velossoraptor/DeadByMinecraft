@@ -34,5 +34,9 @@
     "terror_radius.deathslinger": {
 		"category": "master",
 		"sounds": ["terror_radius/deathslinger"]
+	},
+	"terror_radius.creaking": {
+		"category": "master",
+		"sounds": ["terror_radius/creaking"]
 	}
 }

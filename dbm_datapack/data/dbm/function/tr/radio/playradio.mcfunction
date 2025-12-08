@@ -1,0 +1,10 @@
+execute as @e[type=armor_stand, tag=radio] at @s if entity @e[team=Killer, scores={killer-id=1}] run function dbm:tr/radio/clown
+execute as @e[type=armor_stand, tag=radio] at @s if entity @e[team=Killer, scores={killer-id=2}] run function dbm:tr/radio/deathslinger
+execute as @e[type=armor_stand, tag=radio] at @s if entity @e[team=Killer, scores={killer-id=3}] run function dbm:tr/radio/huntress
+execute as @e[type=armor_stand, tag=radio] at @s if entity @e[team=Killer, scores={killer-id=4}] run function dbm:tr/radio/legion
+execute as @e[type=armor_stand, tag=radio] at @s if entity @e[team=Killer, scores={killer-id=5}] run function dbm:tr/radio/nurse
+execute as @e[type=armor_stand, tag=radio] at @s if entity @e[team=Killer, scores={killer-id=6}] run function dbm:tr/radio/pinhead
+execute as @e[type=armor_stand, tag=radio] at @s if entity @e[team=Killer, scores={killer-id=7}] run function dbm:tr/radio/trapper
+execute as @e[type=armor_stand, tag=radio] at @s if entity @e[team=Killer, scores={killer-id=8}] run function dbm:tr/radio/wraith
+execute as @e[type=armor_stand, tag=radio] at @s if entity @e[team=Killer, scores={killer-id=9}] run function dbm:tr/radio/xeno
+execute as @e[type=armor_stand, tag=radio] at @s if entity @e[team=Killer, scores={killer-id=10}] run function dbm:tr/radio/creaking
