@@ -1,0 +1,42 @@
+{
+	"terror_radius.huntress": {
+		"category": "master",
+		"sounds": ["terror_radius/huntress"]
+	},
+    "terror_radius.clown": {
+		"category": "master",
+		"sounds": ["terror_radius/clown"]
+	},
+    "terror_radius.wraith": {
+		"category": "master",
+		"sounds": ["terror_radius/wraith"]
+	},
+    "terror_radius.trapper": {
+		"category": "master",
+		"sounds": ["terror_radius/trapper"]
+	},
+    "terror_radius.legion": {
+		"category": "master",
+		"sounds": ["terror_radius/legion"]
+	},
+    "terror_radius.nurse": {
+		"category": "master",
+		"sounds": ["terror_radius/nurse"]
+	},
+    "terror_radius.pinhead": {
+		"category": "master",
+		"sounds": ["terror_radius/pinhead"]
+	},
+    "terror_radius.xeno": {
+		"category": "master",
+		"sounds": ["terror_radius/xeno"]
+	},
+    "terror_radius.deathslinger": {
+		"category": "master",
+		"sounds": ["terror_radius/deathslinger"]
+	},
+	"terror_radius.creaking": {
+		"category": "master",
+		"sounds": ["terror_radius/creaking"]
+	}
+}
