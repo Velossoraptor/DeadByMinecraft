@@ -6,6 +6,12 @@ scoreboard objectives add num-active dummy "Number of Active Repair Points"
 scoreboard objectives add random-delay dummy "Random Delay"
 scoreboard objectives add qte-countdown dummy "QTE Countdown"
 scoreboard objectives add qte-active dummy "QTE Active"
+# Power Scores
+# Potion Throw Mod
+scoreboard objectives add pos dummy "Potion Position"
+scoreboard objectives add factor dummy "Potion Factor"
+scoreboard players set #potion pos 0
+scoreboard players set #potion factor 2000
 
 # Killer Scores
 # 0 = Survivor
@@ -24,3 +30,5 @@ execute as @e[tag=repair_point] run scoreboard players set @s random-delay 0
 # initialize all armor stands with the "repair_point" tag to have 0 qte-countdown score
 execute as @e[tag=repair_point] run scoreboard players set @s qte-countdown 0
 
+# FOR TESTING PURPOSES
+execute as @a[team=Killer] run function dbm:power/clown/setupclown
