@@ -24,3 +24,5 @@ execute as @e[tag=repair_point] run scoreboard players set @s random-delay 0
 # initialize all armor stands with the "repair_point" tag to have 0 qte-countdown score
 execute as @e[tag=repair_point] run scoreboard players set @s qte-countdown 0
 
+# initialize scratch mark tracking
+function dbm:scratch
