@@ -1,5 +1,4 @@
-# Tp mounted player to nearest hook
-execute as @e[team=Killer] at @e[tag=hook, sort=nearest, limit=1] run tp @p[team=Survivor, sort=nearest, limit=1, nbt={RootVehicle:{Entity:{id:"minecraft:wolf"}}}] ~ ~ ~
+execute as @e[team=Killer] at @s if predicate dbm:crouching if entity @e[tag=hook,distance=..5] at @e[tag=hook, sort=nearest, limit=1] run tag @a[tag=beingcarried, sort=nearest, limit=1] add hooked
+execute as @e[team=Killer] at @s if predicate dbm:crouching if entity @e[tag=hook,distance=..5] at @e[tag=hook, sort=nearest, limit=1] run tag @a[tag=beingcarried, sort=nearest, limit=1] remove beingcarried
 
-# Kill the dog
-execute as @e[team=Killer] as @e[team=Killer] run function dbm:killer/drop
+execute at @e[tag=hook] run tp @a[tag=hooked, sort=nearest, limit=1] ~ ~1 ~
