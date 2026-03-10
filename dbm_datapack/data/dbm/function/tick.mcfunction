@@ -5,3 +5,5 @@ function dbm:generator
 function dbm:killer/carry
 # Allows killer to hook survivors and survivors stay hooked
 function dbm:killer/hook
+# Allows survivors to unhook other survivors
+function dbm:survivor/unhook

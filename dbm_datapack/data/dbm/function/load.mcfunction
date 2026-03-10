@@ -26,3 +26,6 @@ execute as @e[tag=repair_point] run scoreboard players set @s qte-countdown 0
 
 # initialize scratch mark tracking
 function dbm:scratch
+
+# initialize Health tracking
+scoreboard objectives add health health health
