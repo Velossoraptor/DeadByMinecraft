@@ -7,3 +7,5 @@ function dbm:killer/carry
 function dbm:killer/hook
 # Allows survivors to unhook other survivors
 function dbm:survivor/unhook
+# Manages healthstates
+function dbm:survivor/checkhealthstate
